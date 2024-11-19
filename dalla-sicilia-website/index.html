@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dalla Sicilia con Amore</title>
+    <!-- Google Fonts must be loaded before stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-home">
+    <header class="header">
+        <div class="header-logo">Dalla Sicilia con Amore</div>
+        <nav class="header-nav">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="menu.html" class="nav-link">Menu</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source 
+                    media="(min-width: 768px)"
+                    srcset="assets/img/hero-desktop.png">
+                <source 
+                    media="(max-width: 767px)"
+                    srcset="assets/img/hero-mobile.png">
+                <img 
+                    src="assets/img/hero-mobile.png" 
+                    alt="Welcome to Dalla Sicilia"
+                    class="hero-image">
+            </picture>
+            <div class="hero-content">
+                <h1>Welcome to Dalla Sicilia</h1>
+                <p>Sicilian Staples, Served Stateside!</p>
+            </div>
+        </section>
+    </main>
+</body>
