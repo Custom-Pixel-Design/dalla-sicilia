@@ -1,3 +1,0 @@
-Making sure our images are properly loaded into vs code.
-Both of us have the image files on our personal devices, but
-vs code still gives us an error message.

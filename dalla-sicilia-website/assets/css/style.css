@@ -126,8 +126,9 @@ h2 {
 }
 
 /* Menu Page*/
+
 .menu h2{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 80px;
     text-align: center;
 }
@@ -142,6 +143,7 @@ h2 {
     font-family: "Playfair Display", serif;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .card-container{
@@ -158,7 +160,104 @@ h2 {
     border-style: solid;
     border-width: 3px;
     background-color: #ffffff;
+    transition: var(--background-color) 0.3s ease;
 }
+
+.card:hover{
+    background-color: darkgrey;
+    text-decoration: underline;
+}
+
+/*Contact Us Page */
+.contact-us h2{
+    text-align: center;
+    font-size: 80px;
+    padding: 10px;
+}
+
+.contact-us h3{
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.contact-form{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.contact-us [type=submit] {
+    font-family: "Playfair Display", serif;
+    padding: 5px;
+    height: 2em; width: 10em;
+    background: linear-gradient(135deg, #027703 33%, #ffffff 0 66%, #c20302 0 100%);
+    font-size: 30px;
+    font-weight: bold;
+    transition: var(--background-color) 0.3s ease;
+}
+
+.contact-us [type=submit]:hover{
+    filter: brightness(0.8);
+    text-decoration: underline;
+}
+
+.footer-contact {
+    position: fixed;
+    font-family: "Playfair Display", serif;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+/*Thank You Page*/
+.footer-thank-you{
+    position: fixed;
+    font-family: "Playfair Display", serif;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.thank-you h2{
+    text-align: center;
+    font-size: 80px;
+    padding-top: 175px;
+}
+
+.thank-you h3{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.thank-you-button {
+    font-family: "Playfair Display", serif;
+    padding: 5px;
+    height: 2em; width: 10em;
+    background: linear-gradient(135deg, #027703 33%, #ffffff 0 66%, #c20302 0 100%);
+    font-size: 30px;
+    font-weight: bold;
+    transition: var(--background-color) 0.3s ease;
+    text-align: center;
+}
+
+.thank-you-button:hover{
+    filter: brightness(0.8);
+    text-decoration: underline;
+}
+
 
 
 /* Responsive Design */
@@ -178,8 +277,8 @@ h2 {
     .about-us img {
         max-width: 250px;
     }
-    .menu img {
-        max-width: 40vh;
+    .menu img{
+        max-width: 250px;
     }
 }
 
