@@ -171,6 +171,11 @@ h2 {
     max-width: 100%;
     min-width: 300px;
     height: auto;
+    text-decoration: none;
+}
+
+.card:visited{
+    color: var(--text-color)
 }
 
 .card:hover{
@@ -285,7 +290,52 @@ h2 {
     text-decoration: underline;
 }
 
+/*Coming-Soon Page */
+.coming-soon{
+    text-align: center;
+}
 
+.coming-soon h2{
+    text-align: center;
+    font-size: 80px;
+    padding-top: 175px;
+}
+
+.coming-soon h3{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.coming-soon-button {
+    font-family: "Playfair Display", serif;
+    padding: 5px;
+    height: 2em; width: 10em;
+    background: linear-gradient(135deg, #027703 33%, #ffffff 0 66%, #c20302 0 100%);
+    font-size: 30px;
+    font-weight: bold;
+    transition: var(--background-color) 0.3s ease;
+    text-align: center;
+}
+
+.coming-soon-button:hover{
+    filter: brightness(0.8);
+    text-decoration: underline;
+}
+
+.footer-coming-soon{
+    font-family: "Playfair Display", serif;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin-top: auto;
+}
 
 /* Responsive Design */
 @media (max-width: 767px) {
@@ -303,6 +353,12 @@ h2 {
     }
     .about-us img {
         max-width: 250px;
+    }
+    .thank-you h2 {
+        padding-top: 90px;
+    }
+    .coming-soon h2 {
+        padding-top: 90px;
     }
 }
 @media (max-width: 320px) {

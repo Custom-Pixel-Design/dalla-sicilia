@@ -1,4 +1,4 @@
-# Restaurant Name Website
+# Dalla Sicilia con Amore Website
 
 ## Description
 [Theme, target audience, special features]
@@ -26,10 +26,17 @@
 [Local viewing instructions]
 
 ## Color Palette
-[Document colors used]
+primary-color: #027703; Italian Flag Green <br>
+accent-color: #c20302; Italian Flag Red <br>
+text-color: #333333; Dark Gray <br>
+light-color: #ffffff; White <br>
+background-color: #ffe4c4; Bisque <br>
+card-hover-color: #a9a9a9; Lighter Dark Gray
 
 ## Google Fonts
 [Document fonts used]
 
 ## Future Improvements
-[List 3-5 potential improvements]
+Hamburger menu for header in mobile. <br>
+Detailed dish pages. <br>
+Functional online ordering page.
