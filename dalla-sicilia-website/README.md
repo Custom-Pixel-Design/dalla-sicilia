@@ -40,13 +40,10 @@ This website is inspired by a fictional Italian restaurant owned by the 2 design
 "Mournful Siciliana" by Steve Oxen; https://www.fesliyanstudios.com/royalty-free-music/download/mournful-siciliana/1886
 
 ## Live Demo
-[GitHub Pages link](https://custom-pixel-design.github.io/dalla-sicilia/)
+[\[GitHub Pages link\]](https://custom-pixel-design.github.io/dalla-sicilia/)
 
 ## Installation
-- Use Git Bash to clone this project repository onto your local machine. <br>
-- Once cloned onto your personal machine, navigate into the project directory.<br>
-- Launch the project through your GitBash terminal using the "code ." command.<br>
-- If you have any issues cloning the repository, refer to this GitHub doc on how to clone a repository. [Cloning-a-Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+[Local viewing instructions]
 
 ## Color Palette
 - Primary-color: #027703; Italian Flag Green <br>
@@ -63,5 +60,7 @@ Markazi Text; Allergy warnings; https://fonts.google.com/specimen/Markazi+Text?s
 
 ## Future Improvements
 - Hamburger menu for header in mobile. <br><br>
+
 - Functional online ordering page. <br><br>
+
 - More decorative elements including JavaScript code.
