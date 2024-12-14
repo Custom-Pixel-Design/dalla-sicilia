@@ -40,7 +40,7 @@ This website is inspired by a fictional Italian restaurant owned by the 2 design
 "Mournful Siciliana" by Steve Oxen; https://www.fesliyanstudios.com/royalty-free-music/download/mournful-siciliana/1886
 
 ## Live Demo
-[GitHub Pages link]
+[\[GitHub Pages link\]](https://custom-pixel-design.github.io/dalla-sicilia/)
 
 ## Installation
 [Local viewing instructions]
@@ -59,8 +59,8 @@ Playfair Display; Smaller text & descriptions; https://fonts.google.com/specimen
 Markazi Text; Allergy warnings; https://fonts.google.com/specimen/Markazi+Text?selection.family=Markazi+Text:wght@400..700|Playfair+Display:ital,wght@0,400..900;1,400..900
 
 ## Future Improvements
-- Hamburger menu for header in mobile. <br>
- <br>
-- Functional online ordering page. <br>
-<br>
+- Hamburger menu for header in mobile. <br><br>
+
+- Functional online ordering page. <br><br>
+
 - More decorative elements including JavaScript code.
